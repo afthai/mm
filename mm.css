@@ -7,10 +7,13 @@ body{
     margin: 0;
 }
 
-.navbar {
+.navwrap {
     position: fixed;
     top: 0;
     width: 100%;
+}
+
+.navbar {
     background-color: #23231c;
     overflow: hidden;
 }
@@ -24,11 +27,7 @@ body{
     text-decoration: none;
 }
 
-.navbar .right {
-    float: right;
-}
-
-.navbar a.curr {
+a.curr {
     background-color: #587a65;
 }
 
@@ -57,7 +56,7 @@ body{
     position: absolute;
     background-color: white;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    color: inherit;
+    color: black;
     padding: inherit;
     z-index: 1;
 }
