@@ -29,6 +29,11 @@ body{
     margin: 0px;
 }
 
+.col {
+    float: left;
+    width: 33%;
+  }
+
 figure {
     width: 20%;
     text-align: center;
