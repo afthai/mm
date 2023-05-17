@@ -31,15 +31,19 @@ a.curr {
     overflow: hidden;
 }
 
-.dropdown .dropbtn {
+.dropbtn {
     border: none;
     outline: none;
-    background-color: inherit;
+    background-color: #23231c;
     color: white;
     padding: 15px 20px 10px;
     font-family: inherit;
     font-size: 16px;
     margin: inherit;
+}
+
+button.curr {
+    background-color: #587a65;
 }
 
 .dropdown-content {
